@@ -1,0 +1,216 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey kiddo",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    
+    {
+      "tag": "about",
+      "patterns": [
+        "who are you",
+        "who is the havelsan",
+        "tell me something about havelsan",
+        "what is the havelsan",
+        "what do you say about the havelsan",
+        "give information about the havelsan"
+      ],
+      "responses": [
+        "HAVELSAN is founded in the year 1982 as a corporation owned by and affiliated to the Turkish Armed Forces Foundation"
+      ]
+    },
+    
+    {
+      "tag": "product",
+      "patterns": [
+        "what do you do",
+        "who do you do in the havelsan",
+        "what is your solutions",
+        "what is your products",
+        "tell me something about works or studies in the havelsan",
+        "give information about the solutions of havelsan"
+      ],
+      "responses": [
+        "Focused on software-intensive systems, HAVELSAN is offering and putting at the disposal of the Turkish Armed Forces (TSK)"
+      ]
+    },
+    {
+      "tag": "field",
+      "patterns": [
+        "what is working fields",
+        "which fields havelsan work ",
+        "how many sector do you work",
+        "which sectors are related to havelsan",
+        "which systems do you work in",
+        "give information about working fields of the havelsan"
+      ],
+      "responses": [
+        "There are 4 main fields : Defense, Simulation, Information and Communication, Homeland Security and Cyber Security"
+      ]
+    },
+    
+    {
+      "tag": "new_tech",
+      "patterns": [
+        "what are the new technologies",
+        "which technologies are in the havelsan",
+        "tell me about the new technologies of the havelsan",
+        "what is the havelsan's new technologies",
+        "what do you say about newest technologies the havelsan",
+        "give information about the newest technologies of the havelsan"
+      ],
+      "responses": [
+        "Robotics and Autonomy, Big Data and Artificial Intelligence, Secure Mobile Communication and Augmented Reality."
+      ]
+    },
+    
+     {
+      "tag": "career",
+      "patterns": [
+        "how is carrier at havelsan",
+        "how is being employer of havelsan",
+        "how is feeling of working at havelsan",
+        "can you explain how career is of the havelsan",
+        "what do you say about career the havelsan",
+        "give information about the career planning of the havelsan"
+      ],
+      "responses": [
+        "By going after and learning the global developments and the most advanced technologies, we continuously develop ourselves, thus contributing to both HAVELSAN and its customers at all times."
+      ]
+    },
+     {
+      "tag": "recruitment",
+      "patterns": [
+        "what is the recruitment criteria",
+        "which criterias are in the havelsan",
+        "tell criterias of working at the havelsan",
+        "tell me about the recruitment criteria of the havelsan",
+        "what is the havelsan's recruitment criteria",
+        "what do you say about recruitment criteria of the havelsan",
+        "give information about the recruitment criteria havelsan"
+      ],
+      "responses": [
+        "please go this link : https://www.havelsan.com.tr/en/career/working-at-havelsan/if-scholar-criteria"
+      ]
+    },
+     {
+      "tag": "values",
+      "patterns": [
+        "what are the values of havelsan",
+        "which values are considered in the havelsan",
+        "tell me about the values of the havelsan",
+        "what is the havelsan's values",
+        "what do you say about values the havelsan",
+        "give information about the values havelsan"
+      ],
+      "responses": [
+        "Competitiveness and Productivity, Innovativeness, Stakeholder Satisfaction and Commitment to Corporate Governance Principles and Ethical Values"
+      ]
+    },
+    {
+      "tag": "turkce",
+      "patterns": [
+        "havelsan kimdir",
+        "havelsanın degerleri nedir",
+        "havelsanın degerleri hakkında bilgi verir misin",
+        "havelsan hangi değerlere sahiptir"
+      ],
+      "responses": [
+        "degerler türkçe olarak soylenir"
+      ]
+    },
+
+    
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    
+     {
+      "tag": "cost",
+      "patterns": [
+        "How much does it cost?",
+        "How much money do I need to pay",
+        "How much money?"
+      ],
+      "responses": [
+        "One coffee is 5 dolars and one tea is 3 dollars",
+        "you need to pay 3 dolars for tea and 5 for coffee"
+      ]
+    },
+    
+    
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
